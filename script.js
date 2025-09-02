@@ -3,7 +3,7 @@ function makeid(l) {
 	var res = " ";
 	var char_list = "ABCDEFGHIJKLMNOPQRSTWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
-	for(var i = 0 ; i<l ; i++){
+	for(let i = 0 ; i<l ; i++){
 		res+= char_list.charAt(
 			Math.floor(
 				Math.random()*char_list.length;
@@ -13,6 +13,7 @@ function makeid(l) {
 		return res;
 	}
 }
+
 
 // Do not change the code below.
 const l = parseInt(prompt("Enter a number."), 10); // 
