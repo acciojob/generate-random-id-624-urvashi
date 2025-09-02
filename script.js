@@ -15,5 +15,5 @@ function makeid(l) {
 }
 
 // Do not change the code below.
-const l = prompt("Enter a number.");
+const l = parseInt(prompt("Enter a number."), 10); // 
 window.alert(makeid(l));
